@@ -3,20 +3,15 @@ import './nav.scss'
 import { AiOutlineHome } from 'react-icons/ai'
 import { AiOutlineUser } from 'react-icons/ai'
 import { BiBook } from 'react-icons/bi'
-import { RiServiceLine } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
-  const changeActive = () =>{
-    if (window.scrollY >= 90){
-      setActiveNav()
-    }
-  }
+  const [activeNav, setActiveNav] = useState('#header')
+
   return (
     <nav>
-      <a href="#"
-        onClick={() => setActiveNav('#')}
-        className={activeNav === '#' ? 'active' : ''}>
+      <a href="#header"
+        onClick={() => setActiveNav('#header')}
+        className={activeNav === '#header' ? 'active' : ''}>
         <AiOutlineHome /></a>
       <a href="#about"
         onClick={() => setActiveNav('#about')}

@@ -2,8 +2,8 @@ import React from 'react'
 import './about.scss'
 import aboutMe from '../../assets/img/me11.jpg'
 import { FaAward } from 'react-icons/fa'
-import {MdGolfCourse} from 'react-icons/md'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { MdGolfCourse } from 'react-icons/md'
+import { VscFolderLibrary } from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
@@ -16,17 +16,16 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={aboutMe} alt="About Image" />
+            <img src={aboutMe} alt="About Me" />
           </div>
         </div>
         <div className="about__content">
           <div className="about__cards">
-
             <article className="about__item">
               <FaAward className='about__icon' />
               <div className="title">Experience</div>
               <div className="paragraph">
-                5+ Months Working <br/>(Internship on HTML, CSS, JS,... )
+                5+ Months Working <br />(Internship on HTML, CSS, JS,... )
               </div>
             </article>
 
@@ -45,7 +44,6 @@ const About = () => {
                 5+ Projects On University
               </div>
             </article>
-
           </div>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
