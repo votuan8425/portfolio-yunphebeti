@@ -5,14 +5,11 @@ import { TiHtml5 } from 'react-icons/ti'
 import { TiCss3 } from 'react-icons/ti'
 import { SiJavascript } from 'react-icons/si'
 import { FaReact } from 'react-icons/fa'
-
 import { FaBootstrap } from 'react-icons/fa'
 import { SiNodedotjs } from 'react-icons/si'
 import { DiMsqlServer } from 'react-icons/di'
 import { SiOracle } from 'react-icons/si'
-import { HiShieldCheck } from 'react-icons/hi'
 import { SiAdobephotoshop } from 'react-icons/si'
-
 
 const Experience = () => {
   return (
