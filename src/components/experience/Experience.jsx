@@ -9,6 +9,7 @@ import { FaBootstrap } from 'react-icons/fa'
 import { SiNodedotjs } from 'react-icons/si'
 import { DiMsqlServer } from 'react-icons/di'
 import { SiOracle } from 'react-icons/si'
+import {TbBrandNextjs} from 'react-icons/tb'
 import { SiAdobephotoshop } from 'react-icons/si'
 
 const Experience = () => {
@@ -68,6 +69,14 @@ const Experience = () => {
               <div>
                 <div className="experience_skill">Adobe Photoshop<SiAdobephotoshop /></div>
                 <div className="experience__expert">Intermediate</div>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <div className="experience_skill">NextJS<TbBrandNextjs /></div>
+                <div className="experience__expert">Basic</div>
               </div>
             </article>
           </div>
