@@ -13,8 +13,8 @@ const Portfolio = () => {
           </div>
           <h3>NFT Website</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/votuan8425/Yun-NFTs-ReactJS" className='btn' target='_blank'>Github</a>
-            <a href="https://yunphe-nft.netlify.app" target='_blank' className='btn btn-primary'>Live Demo</a>
+            <a href="https://github.com/votuan8425/Yun-NFTs-ReactJS" rel="noreferrer" className='btn' target='_blank'>Github</a>
+            <a href="https://yunphe-nft.netlify.app" target='_blank' rel="noreferrer" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
       </div>
