@@ -9,6 +9,7 @@ import Experience from './components/experience/Experience.jsx'
 import Contact from './components/contact/Contact.jsx'
 import Footer from './components/footer/Footer.jsx'
 import { ToastContainer } from 'react-toastify';
+import Portfolio from './components/portfolio/Portfolio.jsx'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       {/* <Services/>
       <Portfolio/>
       <Testimonials/> */}
+      <Portfolio/>
       <Contact />
       <Footer />
       <ToastContainer
