@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.scss'
 import PJ1 from '../../assets/img/image-pj1.jpg'
-import PJ2 from '../../assets/img/image-pj2.jpg'
+import PJ2 from '../../assets/img/image-pj2.png'
 
 const Portfolio = () => {
   return (
@@ -21,7 +21,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PJ1} alt="" />
+            <img src={PJ2} alt="" />
           </div>
           <h3>NFT Store</h3>
           <div className="portfolio__item-cta">
