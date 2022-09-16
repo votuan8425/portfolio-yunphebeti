@@ -60,7 +60,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <div className="experience_skill">Bootsrap<FaBootstrap /></div>
+                <div className="experience_skill">Bootstrap<FaBootstrap /></div>
                 <div className="experience__expert">Intermediate</div>
               </div>
             </article>
