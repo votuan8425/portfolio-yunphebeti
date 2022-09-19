@@ -3,6 +3,8 @@ import './portfolio.scss'
 import PJ1 from '../../assets/img/image-pj1.jpg'
 import PJ2 from '../../assets/img/image-pj2.png'
 import PJ3 from '../../assets/img/image-pj3.png'
+import PJ4 from '../../assets/img/image-pj4.png'
+
 
 const Portfolio = () => {
   return (
@@ -38,6 +40,16 @@ const Portfolio = () => {
           <div className="portfolio__item-cta">
             <a href="https://github.com/votuan8425/Giphy-React-App" rel="noreferrer" className='btn' target='_blank'>Github</a>
             <a href="https://yunphe-giphy-react-app.vercel.app" target='_blank' rel="noreferrer" className='btn btn-primary'>Live Demo</a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={PJ4} alt="" />
+          </div>
+          <h3>MERN</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/votuan8425/MERN" rel="noreferrer" className='btn' target='_blank'>Github</a>
+            <a href="https://yunphe-mern-app.herokuapp.com/" target='_blank' rel="noreferrer" className='btn btn-primary'>Live Demo</a>
           </div>
         </article>
       </div>
