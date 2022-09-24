@@ -1,17 +1,12 @@
 import React from 'react'
 import './experience.scss'
 import { BsPatchCheckFill } from 'react-icons/bs'
-import { TiHtml5 } from 'react-icons/ti'
-import { TiCss3 } from 'react-icons/ti'
-import { SiJavascript } from 'react-icons/si'
-import { FaReact } from 'react-icons/fa'
-import { FaBootstrap } from 'react-icons/fa'
-import { SiNodedotjs } from 'react-icons/si'
+import { TiHtml5, TiCss3, } from 'react-icons/ti'
+import { FaReact, FaBootstrap } from 'react-icons/fa'
 import { DiMsqlServer } from 'react-icons/di'
-import { SiOracle } from 'react-icons/si'
-import {TbBrandNextjs} from 'react-icons/tb'
-import { SiAdobephotoshop } from 'react-icons/si'
-import { SiTypescript } from 'react-icons/si'
+import { TbBrandNextjs } from 'react-icons/tb'
+import { GrMysql } from 'react-icons/gr'
+import { SiTypescript, SiSpringboot, SiAdobephotoshop, SiOracle, SiNodedotjs, SiJavascript } from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -113,6 +108,20 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <div className="experience_skill">Oracle<SiOracle /></div>
+                <div className="experience__expert">Intermediate</div>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <div className="experience_skill">Spring Boot<SiSpringboot /></div>
+                <div className="experience__expert">Basic</div>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <div className="experience_skill">MySQL<GrMysql /></div>
                 <div className="experience__expert">Intermediate</div>
               </div>
             </article>
